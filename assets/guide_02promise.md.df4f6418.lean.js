@@ -1,0 +1,1 @@
+import{_ as s,a as n,c as a,d as e}from"./app.b29f61af.js";const y=JSON.parse('{"title":"一、引入","description":"","frontmatter":{},"headers":[],"relativePath":"guide/02promise.md","lastUpdated":null}'),l={name:"guide/02promise.md"},p=e("",25),o=[p];function c(r,t,i,C,A,d){return n(),a("div",null,o)}const D=s(l,[["render",c]]);export{y as __pageData,D as default};
