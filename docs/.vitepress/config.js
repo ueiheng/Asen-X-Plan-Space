@@ -29,6 +29,7 @@ export default {
                     { text: 'CSDN', link: 'https://www.nowcoder.com/' },
                     { text: '掘金', link: 'https://juejin.cn/' },
                     { text: 'GPT 3.0', link: 'https://chat1.aichatos.com/' },
+                    { text: 'sketchfab', link: 'https://sketchfab.com/3d-models?features=downloadable&sort_by=-likeCount' },
                 ]
             }
         ],
@@ -72,7 +73,7 @@ export default {
                     { text: '旋转与缩放', link: '/Three_dir/03旋转与缩放.md' },
                     { text: 'Gsap动画库', link: '/Three_dir/04Gsap动画库.md' },
                     { text: 'WalkingWitch', link: '/Three_dir/03行走女巫.md' },
-
+                    
                 ],
                 collapsible: true,
                 collapsed: true,
