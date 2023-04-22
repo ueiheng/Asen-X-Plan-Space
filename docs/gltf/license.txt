@@ -1,11 +1,11 @@
 Model Information:
-* title:	working sci-fi uniform+rig metahuman
-* source:	https://sketchfab.com/3d-models/working-sci-fi-uniformrig-metahuman-3d473cb93b42434e984616279086281f
-* author:	DEYMAR (https://sketchfab.com/deymar)
+* title:	Wolf with Animations
+* source:	https://sketchfab.com/3d-models/wolf-with-animations-f3769a474a714ebbbaca0d97f9b0a5a0
+* author:	3DHaupt (https://sketchfab.com/dennish2010)
 
 Model License:
-* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
-* requirements:	Author must be credited. Commercial use is allowed.
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
 
 If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
-This work is based on "working sci-fi uniform+rig metahuman" (https://sketchfab.com/3d-models/working-sci-fi-uniformrig-metahuman-3d473cb93b42434e984616279086281f) by DEYMAR (https://sketchfab.com/deymar) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+This work is based on "Wolf with Animations" (https://sketchfab.com/3d-models/wolf-with-animations-f3769a474a714ebbbaca0d97f9b0a5a0) by 3DHaupt (https://sketchfab.com/dennish2010) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
