@@ -11,13 +11,13 @@ export default {
         logo: '/images/author.jpg',
         nextLinks: true,
         nav: [
-            {
-                text: "文档",
-                items: [
-                    { text: '文档1' },
-                    { text: '文档2' }
-                ]
-            },
+            // {
+            //     text: "文档",
+            //     items: [
+            //         { text: '文档1' },
+            //         { text: '文档2' }
+            //     ]
+            // },
             {
                 text: "快捷导航",
                 items: [
