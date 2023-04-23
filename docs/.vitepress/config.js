@@ -38,21 +38,37 @@ export default {
         ],
         sidebar: [
             {
-                text: '开始',
+                text: '前端基础知识',
                 items: [
                     {
-                        text: 'CSS3:  Flex布局',
+                        text: 'Css：Flex布局',
                         link: '/guide/01flex',
-                        items: [
+                        // items: [
                             // { text: 'promise', link: '/guide/02promise' }
-                        ],
+                        // ],
                         //是否可以进行折叠
                         // collapsible: true,
                         // collapsed: true
                     },
                     {
+                        text:'Css：预处理器',
+                        collapsible: true,
+                        collapsed: true,
+                        items:[
+                            {text:'Sass从入门到入土',link:'/guide/CssLoader/sass.md'},
+                        ]
+                    },
+                    {
                         text: 'JS：Promise', link: '/guide/02promise'
                     },
+                ],
+                collapsible: true,
+                collapsed: true
+            },
+            {
+                text:'Asen的面试题总结',
+                items: [
+                    { text: '面试题', link: '/InterviewWrittenTest/index.md' },
                 ],
                 collapsible: true,
                 collapsed: true
@@ -66,14 +82,14 @@ export default {
                 collapsed: true,
             },
             {
-                text: 'Three.js教程',
+                text: 'Three.js学习笔记',
                 items: [
-                    { text: '快速上手', link: '/Three_dir/01快速入门.md' },
-                    { text: '基础知识', link: '/Three_dir/02基础知识.md' },
-                    { text: '旋转与缩放', link: '/Three_dir/03旋转与缩放.md' },
-                    { text: 'Gsap动画库', link: '/Three_dir/04Gsap动画库.md' },
+                    { text: '快速上手', link: '/Three_dir/01QuickGetStart.md' },
+                    { text: '基础知识', link: '/Three_dir/02BasicKnowledge.md' },
+                    { text: '旋转与缩放', link: '/Three_dir/03RotateAndScale.md' },
+                    { text: 'Gsap动画库', link: '/Three_dir/04Gsap.md' },
                     { text: 'WalkingWitch', link: '/Three_dir/03行走女巫.md' },
-                    
+
                 ],
                 collapsible: true,
                 collapsed: true,

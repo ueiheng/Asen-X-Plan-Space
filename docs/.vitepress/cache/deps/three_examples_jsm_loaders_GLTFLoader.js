@@ -63,6 +63,7 @@ import {
   VectorKeyframeTrack,
   sRGBEncoding
 } from "./chunk-N64XG22S.js";
+import "./chunk-JC4IRQUL.js";
 
 // node_modules/three/examples/jsm/utils/BufferGeometryUtils.js
 function toTrianglesDrawMode(geometry, drawMode) {

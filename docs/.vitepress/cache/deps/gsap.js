@@ -1,3 +1,5 @@
+import "./chunk-JC4IRQUL.js";
+
 // node_modules/gsap/gsap-core.js
 function _assertThisInitialized(self) {
   if (self === void 0) {
