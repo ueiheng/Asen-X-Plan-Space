@@ -5,19 +5,17 @@ export default {
     titleTemplate: false, //组织子标题
     ignoreDeadLinks: true,//忽略死链接
     lastUpdated: true,    //上次git上传时间
-    description: "Three.js", // <meta>标签
+    description: "Three.js Vue3 vitepress markdown", // <meta>标签
     themeConfig: {
+        home: '../index.md',
         siteTitle: "Asen", // 网站标题
         logo: '/images/author.jpg',
         nextLinks: true,
         nav: [
-            // {
-            //     text: "文档",
-            //     items: [
-            //         { text: '文档1' },
-            //         { text: '文档2' }
-            //     ]
-            // },
+            {
+                text: "文档",
+                link: '../guide/index.md'
+            },
             {
                 text: "快捷导航",
                 items: [
@@ -44,18 +42,18 @@ export default {
                         text: 'Css：Flex布局',
                         link: '/guide/01flex',
                         // items: [
-                            // { text: 'promise', link: '/guide/02promise' }
+                        // { text: 'promise', link: '/guide/02promise' }
                         // ],
                         //是否可以进行折叠
                         // collapsible: true,
                         // collapsed: true
                     },
                     {
-                        text:'Css：预处理器',
+                        text: 'Css：预处理器',
                         collapsible: true,
                         collapsed: true,
-                        items:[
-                            {text:'Sass从入门到入土',link:'/guide/CssLoader/sass.md'},
+                        items: [
+                            { text: 'Sass从入门到入土', link: '/guide/CssLoader/sass.md' },
                         ]
                     },
                     {
@@ -66,7 +64,7 @@ export default {
                 collapsed: true
             },
             {
-                text:'Asen的面试题总结',
+                text: 'Asen的面试题总结',
                 items: [
                     { text: '面试题', link: '/InterviewWrittenTest/index.md' },
                 ],

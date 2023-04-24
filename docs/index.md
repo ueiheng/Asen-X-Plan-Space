@@ -1,10 +1,10 @@
 ---
-layout : doc
+layout : home
 ---
 
 
-# Asen Learn Space
 
+<indexVue />
 <script setup>
-
+import indexVue from './pages/index/index.vue'
 </script>
