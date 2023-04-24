@@ -72,14 +72,6 @@ export default {
                 collapsed: true
             },
             {
-                text: '正弦函数',
-                items: [
-                    { text: '正弦函数', link: '/guide/03sin_img' },
-                ],
-                collapsible: true,
-                collapsed: true,
-            },
-            {
                 text: 'Three.js学习笔记',
                 items: [
                     { text: '快速上手', link: '/Three_dir/01QuickGetStart.md' },
