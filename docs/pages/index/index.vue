@@ -6,7 +6,7 @@
         <div class="marquee">- A - radical - front-end - enthusiast</div>
         <div class="marquee">- A - radical - front-end - enthusiast</div>
         <div class="marquee">- A - radical - front-end - enthusiast</div>
-    </div>- 
+    </div>-
 </template>
     
 <script setup>
@@ -15,17 +15,6 @@
     
 <style lang="less">
 .is-home {
-    background-color: #e9e9e9;
-}
-
-// nav标题颜色
-.VPNav {
-    background-color: #e9e9e9;
-}
-
-//样式覆盖
-.VPNavBar.has-sidebar .content-body[data-v-cf6e7c5e],
-.VPNavBar.fill .content-body[data-v-cf6e7c5e] {
     background-color: #e9e9e9;
 }
 
@@ -54,9 +43,10 @@
 
 .marquee {
     white-space: nowrap;
-    animation: scroll 4s cubic-bezier(0.43,1.20, 0.14, 1.72) infinite;
+    animation: scroll 4s cubic-bezier(0.43, 1.20, 0.14, 1.72) infinite;
     margin-right: 20px;
 }
+
 .marquee:last-child {
     margin-right: 0;
 }
@@ -64,14 +54,12 @@
 
 
 @keyframes scroll {
-  0% {
-    transform: translateX(5%);
-  }
-  100% {
-    transform:translateX(-100%);
-  }
+    0% {
+        transform: translateX(5%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
 }
-
-
-
 </style>
