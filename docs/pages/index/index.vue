@@ -13,7 +13,7 @@
 
 </script>
     
-<style lang="less" scope>
+<style lang="less">
 .is-home {
     background-color: #e9e9e9;
 }
