@@ -16,12 +16,12 @@
     
 <style lang="less">
 .site-title {
-    // width: 100%;
-    font-size: 150px;
+    width: 100%;
+    font-size: 144px;
     text-align: center;
     // color: #000000;
     height: 230px;
-    overflow: hidden;
+    // overflow: hidden;
     font-weight: 900;
     padding-top: 80px;
     white-space: nowrap;
