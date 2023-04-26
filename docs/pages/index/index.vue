@@ -15,19 +15,16 @@
 </script>
     
 <style lang="less">
-.is-home {
-    background-color: #e9e9e9;
-}
-
 .site-title {
     // width: 100%;
     font-size: 150px;
     text-align: center;
-    color: #222;
+    // color: #000000;
     height: 230px;
     overflow: hidden;
     font-weight: 900;
     padding-top: 80px;
+    white-space: nowrap;
 }
 
 
