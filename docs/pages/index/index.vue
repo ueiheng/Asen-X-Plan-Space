@@ -1,12 +1,13 @@
 <!-- 首页 -->
 <template>
-    <div class="site-title">Asen Space</div>
+    <div class="site-title">ASEN X PLAN SPACE</div>
     <div class="content-mq">
-        <div class="marquee">- A - radical - front-end - enthusiast</div>
-        <div class="marquee">- A - radical - front-end - enthusiast</div>
-        <div class="marquee">- A - radical - front-end - enthusiast</div>
-        <div class="marquee">- A - radical - front-end - enthusiast</div>
-    </div>-
+        <div class="marquee">- A - radical - front-end - <strong>Enthusiast</strong></div>
+        <div class="marquee">- A - radical - front-end - <strong>Enthusiast</strong></div>
+        <div class="marquee">- A - radical - front-end - <strong>Enthusiast</strong></div>
+        <div class="marquee">- A - radical - front-end - <strong>Enthusiast</strong></div>
+    </div>
+    <div class="index-img"><img src="../../public/images/indexbac.png" alt="img"></div>
 </template>
     
 <script setup>
@@ -23,9 +24,9 @@
     font-size: 150px;
     text-align: center;
     color: #222;
-    height: 300px;
+    height: 230px;
     overflow: hidden;
-    font-weight: 700;
+    font-weight: 900;
     padding-top: 80px;
 }
 
@@ -43,7 +44,7 @@
 
 .marquee {
     white-space: nowrap;
-    animation: scroll 4s cubic-bezier(0.43, 1.20, 0.14, 1.72) infinite;
+    animation: scroll 12s cubic-bezier(0.43, 1.20, 0.14, 1.72) infinite;
     margin-right: 20px;
 }
 
@@ -61,5 +62,11 @@
     100% {
         transform: translateX(-100%);
     }
+}
+
+.index-img {
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 30px 50px;
 }
 </style>
