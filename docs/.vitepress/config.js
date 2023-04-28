@@ -87,6 +87,14 @@ export default {
                 collapsible: true,
                 collapsed: true,
             },
+            {
+                text: '杂记',
+                items: [
+                    { text: 'Javaweb', link: '/zatan/javaweb.md' },
+                ],
+                collapsible: true,
+                collapsed: true
+            },
         ]
     },
 
