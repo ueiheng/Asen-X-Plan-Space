@@ -1,5 +1,3 @@
-import "./chunk-JC4IRQUL.js";
-
 // node_modules/vitepress/dist/client/theme-default/index.js
 import "C:/Users/小吴/Desktop/asen-learn-space/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
 import "C:/Users/小吴/Desktop/asen-learn-space/node_modules/vitepress/dist/client/theme-default/styles/vars.css";

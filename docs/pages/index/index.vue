@@ -7,7 +7,9 @@
         <div class="marquee">- A - radical - front-end - <strong>Enthusiast</strong></div>
         <div class="marquee">- A - radical - front-end - <strong>Enthusiast</strong></div>
     </div>
-    <div class="index-img"><img src="../../public/images/indexbac.png" alt="img"></div>
+    <!-- <div class="index-img"><img src="../../public/images/indexbac.png" alt="img"></div> -->
+    <div class="index-img"><video class="index-video"  autoplay muted disablepictureinpicture src="https://assets.mixkit.co/videos/preview/mixkit-flying-through-the-clouds-with-the-radiant-sun-14171-large.mp4" loop></video></div>
+    <el-button>Default</el-button>
 </template>
     
 <script setup>
@@ -65,5 +67,9 @@
     border-radius: 15px;
     overflow: hidden;
     margin: 30px 50px;
+    height: 600px;
+}
+.index-img .index-video{
+    width: 100%;
 }
 </style>

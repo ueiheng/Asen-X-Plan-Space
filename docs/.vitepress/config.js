@@ -6,6 +6,9 @@ export default {
     ignoreDeadLinks: true,//忽略死链接
     lastUpdated: true,    //上次git上传时间
     description: "Three.js Vue3 vitepress markdown", // <meta>标签
+    babel: {
+        plugins: [['component', { libraryName: 'element-plus' }]],
+    },
     themeConfig: {
         home: '../index.md',
         siteTitle: "Asen", // 网站标题
