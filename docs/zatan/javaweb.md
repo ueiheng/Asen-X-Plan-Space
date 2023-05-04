@@ -31,7 +31,7 @@
 
 - 以下是一个简单的示例，在JavaWeb项目中，我们可以创建一个名为**MyServlet**的Java类，继承**HttpServlet**，然后重写其**doGet**()和**doPost**()方法来处理HTTP **GET**和**POST**请求：
 
-```java
+```java 
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
