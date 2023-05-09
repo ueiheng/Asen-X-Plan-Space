@@ -3,7 +3,7 @@ layout : home
 ---
 
 
-<WalkingWitch />
+<!-- <WalkingWitch /> -->
 <script setup>
-import WalkingWitch from './pages/03WalkingWitch.vue'
+// import WalkingWitch from './pages/03WalkingWitch.vue'
 </script>
