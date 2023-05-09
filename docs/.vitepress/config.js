@@ -27,8 +27,9 @@ export default {
                     { text: 'Three.js 官网', link: 'https://threejs.org/' },
                     { text: 'Angular.js 官网', link: 'https://angular.io/' },
                     { text: 'Leetcode', link: 'https://leetcode.cn/' },
-                    { text: 'CSDN', link: 'https://www.nowcoder.com/' },
+                    { text: 'CSDN', link: 'https://www.csdn.net/' },
                     { text: '掘金', link: 'https://juejin.cn/' },
+                    { text: '牛客', link: 'https://www.nowcoder.com/' },
                     { text: 'GPT 3.0', link: 'https://chat1.aichatos.com/' },
                     { text: 'sketchfab', link: 'https://sketchfab.com/3d-models?features=downloadable&sort_by=-likeCount' },
                 ]
@@ -81,7 +82,7 @@ export default {
                     { text: '基础知识', link: '/Three_dir/02BasicKnowledge.md' },
                     { text: '旋转与缩放', link: '/Three_dir/03RotateAndScale.md' },
                     { text: 'Gsap动画库', link: '/Three_dir/04Gsap.md' },
-                    { text: 'WalkingWitch', link: '/Three_dir/03行走女巫.md' },
+                    { text: 'WalkingWitch', link: '/Three_dir/03WalkingWitch.md' },
 
                 ],
                 collapsible: true,

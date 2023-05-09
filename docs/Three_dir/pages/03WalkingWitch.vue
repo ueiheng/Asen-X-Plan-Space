@@ -6,7 +6,8 @@
 <script setup>
 import * as THREE from 'three'
 import { ref, onMounted } from 'vue';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader';
+// import { GLTFLoaderUtils } from 'three/examples/jsm/loaders/GLTFLoaderUtils.js';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 //场景
 const scene = new THREE.Scene();
@@ -21,7 +22,7 @@ const myCanvas = ref(null)
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 
 
-
+// 调整摄像机角度
 camera.position.z = 5;
 camera.position.x = 2;
 camera.position.y = 2;
@@ -31,23 +32,21 @@ const controls = new OrbitControls(camera, renderer.domElement);
 
 controls.enableDamping = true
 
+
 const loader = new GLTFLoader();
-loader.load('../../gltf/scene.gltf', (gltf) => {
+loader.load('../../gltf/wolf_with_animations.glb', (gltf) => {
     const model = gltf.scene;
+
     model.scale.set(2, 2, 2);
-    // const axes = new THREE.AxesHelper(40);
-    // scene.add(axes)
+
     let mixer = new THREE.AnimationMixer(model); // 创建融合器（mixer）
-    const clips = gltf.animations; // 获取所有动画
-    console.log(clips);
-const walkClip = THREE.AnimationClip.findByName(clips, 'walk'); // 找到走路的动画 clip
-
-const action = mixer.clipAction(walkClip); // 创建动画 action
-
-action.play(); // 播放动画
-
+    const clips = gltf.animations; // 获取所有动画  
+    const walkClip = THREE.AnimationClip.findByName(clips, '02_walk'); // 找到走路的动画 clip
+    
+    const action = mixer.clipAction(walkClip); // 创建动画 action
+    action.play(); // 播放动画
     scene.add(model);
-    // console.log(gltf.scene.children);
+    
 });
 
 const light = new THREE.AmbientLight(0xffffff, 4);
@@ -65,30 +64,27 @@ scene.add(spotLight.target);
 // 如果你是一个浏览器游戏开发的新手，你或许会说“为什么我们不直接用setInterval来实现刷新的功能呢？”当然啦，我们的确可以用setInterval，
 // 但是，requestAnimationFrame有很多的优点。最重要的一点或许就是当用户切换到其它的标签页时，它会暂停。
 // 因此不会浪费用户宝贵的处理器资源，也不会损耗电池的使用寿命。
+
+
 function animate() {
+    // const clock = new THREE.Clock();
     requestAnimationFrame(animate);
-
-
+    // const delta = clock.getDelta();
+    // console.log(Mymixer);
+    // Mymixer.update(delta);
     renderer.render(scene, camera);
 }
 
-
-
-
-
 onMounted(() => {
-    console.log(myCanvas);
+    // console.log(myCanvas);
     // 使用所需要的渲染区域的宽高，来让渲染器渲染出的场景填充满我们的应用程序
     renderer.setSize(window.innerWidth, window.innerHeight);
-
     //将renderer（渲染器）的dom元素（renderer.domElement）添加到我们的HTML文档中
     myCanvas.value.appendChild(renderer.domElement);//形成canvas元素
 
     //调用旋转函数
     animate();
-
 })
 
 </script>
-    
 <style></style>
