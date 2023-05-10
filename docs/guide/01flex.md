@@ -24,7 +24,7 @@ flex布局（flex是flexible box的缩写）， 也称为**弹性盒模型** 。
 -   **cross size** –弹性项目的宽度或高度，以交叉维度为准，是项目的交叉大小。横向尺寸属性是横向尺寸中的“宽度”或“高度”中的任何一个。
 
 
-![image.png](https://img-blog.csdnimg.cn/img_convert/c93c97e1b32b43f37b3f1b8db7a33f9b.png)
+![image1](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/ed59f1a807324d2db5ba9476f2a2af74~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
 
 ## 容器六属性
 ### 将容大盒子的display属性设置为display : flex ;大盒子将变成容器，容器拥有6个新属性
@@ -144,7 +144,7 @@ align-content属性定义了多根轴线的对齐方式。如果项目只有一�
 > 1.  order
 order属性越小，项目越靠近主轴起点
 
-![image.png](https://img-blog.csdnimg.cn/img_convert/23d2a14b1d5e8f919d8434bfe166d22c.png)
+![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/5f50dc2ea5134f2483b460d88f8e7fba~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?)
 <br>
 <br>
 <br>

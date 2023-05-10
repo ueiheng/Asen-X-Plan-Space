@@ -8,8 +8,9 @@
         <div class="marquee">- A - radical - front-end - <strong>Enthusiast</strong></div>
     </div>
     <!-- <div class="index-img"><img src="../../public/images/indexbac.png" alt="img"></div> -->
-    <div class="index-img"><video class="index-video"  autoplay muted disablepictureinpicture src="https://assets.mixkit.co/videos/preview/mixkit-flying-through-the-clouds-with-the-radiant-sun-14171-large.mp4" loop></video></div>
-    <el-button>Default</el-button>
+    <div class="index-img"><video class="index-video" autoplay muted disablepictureinpicture
+            src="https://assets.mixkit.co/videos/preview/mixkit-flying-through-the-clouds-with-the-radiant-sun-14171-large.mp4"
+            loop></video></div>
 </template>
     
 <script setup>
@@ -23,7 +24,7 @@
     text-align: center;
     // color: #000000;
     height: 230px;
-    // overflow: hidden;
+    overflow: hidden;
     font-weight: 900;
     padding-top: 80px;
     white-space: nowrap;
@@ -65,11 +66,13 @@
 
 .index-img {
     border-radius: 15px;
+    min-width: 350px;
     overflow: hidden;
-    margin: 30px 50px;
-    height: 600px;
+    margin: 30px 20px;
+    // height: 600px;
 }
-.index-img .index-video{
+
+.index-img .index-video {
     width: 100%;
-}
-</style>
+    height: 100%;
+}</style>
