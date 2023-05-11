@@ -16,6 +16,10 @@ export default {
         nextLinks: true,
         nav: [
             {
+                text: "Tasklist📆",
+                link: '../tasklist/index.md'
+            },
+            {
                 text: "文档",
                 link: '../guide/index.md'
             },
