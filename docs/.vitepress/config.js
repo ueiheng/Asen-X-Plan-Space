@@ -1,14 +1,11 @@
 // 此处配置页头header
-
 export default {
+
     title: "Asen Learn Space",
     titleTemplate: false, //组织子标题
     ignoreDeadLinks: true,//忽略死链接
     lastUpdated: true,    //上次git上传时间
     description: "Three.js Vue3 vitepress markdown", // <meta>标签
-    babel: {
-        plugins: [['component', { libraryName: 'element-plus' }]],
-    },
     themeConfig: {
         home: '../index.md',
         siteTitle: "Asen", // 网站标题
@@ -75,6 +72,14 @@ export default {
                 text: 'Asen的面试题总结',
                 items: [
                     { text: '面试题', link: '/InterviewWrittenTest/index.md' },
+                ],
+                collapsible: true,
+                collapsed: true
+            },
+            {
+                text: 'React学习笔记',
+                items: [
+                    { text: 'redux快速入门', link: '/React/learn_redux.md' },
                 ],
                 collapsible: true,
                 collapsed: true

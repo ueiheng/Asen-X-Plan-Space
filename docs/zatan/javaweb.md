@@ -73,7 +73,7 @@ public class MyServlet extends HttpServlet {
 
 以上配置表示将 /hello/* 路径下的请求转发到**MyServlet**进行处理。
 
-最后启动**Web容器**，访问http://localhost:8080/hello?param=world 即可看到Hello World! Your param is world的响应结果。
+最后启动**Web容器**，访问`http://localhost:8080/hello?param=world` 即可看到Hello World! Your param is world的响应结果。
 
 ### 总的来说，JavaWeb开发中的路由实现，基于Servlet来实现.
 通过web.xml文件的配置可以将URL地址映射到对应的Servlet上进行处理。
