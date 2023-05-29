@@ -11,12 +11,13 @@
     </div>
 </template>
     
-<script setup lang='ts'>
-defineProps<{
-    icon: any,
-    description: String,
-    details: String,
-}>()
+<script setup>
+
+const props = defineProps({
+  icon: String,
+  description: String,
+  details: String
+});
 
 </script>
     
@@ -63,7 +64,8 @@ defineProps<{
     white-space: nowrap;
     font-size: 12px;
 }
-.card-more a{
+
+.card-more a {
     font-weight: 700;
 }
 </style>
