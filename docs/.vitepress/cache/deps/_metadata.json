@@ -1,56 +1,19 @@
 {
-  "hash": "6aacd83d",
-  "browserHash": "f44abb6c",
+  "hash": "1d14626d",
+  "browserHash": "8a3349b8",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "1fc1e9a4",
+      "fileHash": "ce77e1b5",
       "needsInterop": false
     },
     "@theme/index": {
       "src": "../../../../node_modules/vitepress/dist/client/theme-default/index.js",
       "file": "@theme_index.js",
-      "fileHash": "ff776f6d",
-      "needsInterop": false
-    },
-    "three": {
-      "src": "../../../../node_modules/three/build/three.module.js",
-      "file": "three.js",
-      "fileHash": "de75aac5",
-      "needsInterop": false
-    },
-    "three/addons/controls/OrbitControls.js": {
-      "src": "../../../../node_modules/three/examples/jsm/controls/OrbitControls.js",
-      "file": "three_addons_controls_OrbitControls__js.js",
-      "fileHash": "3f210479",
-      "needsInterop": false
-    },
-    "gsap": {
-      "src": "../../../../node_modules/gsap/index.js",
-      "file": "gsap.js",
-      "fileHash": "b000a7c0",
-      "needsInterop": false
-    },
-    "three/examples/jsm/loaders/GLTFLoader": {
-      "src": "../../../../node_modules/three/examples/jsm/loaders/GLTFLoader.js",
-      "file": "three_examples_jsm_loaders_GLTFLoader.js",
-      "fileHash": "942b6016",
-      "needsInterop": false
-    },
-    "three/addons/loaders/GLTFLoader": {
-      "src": "../../../../node_modules/three/examples/jsm/loaders/GLTFLoader.js",
-      "file": "three_addons_loaders_GLTFLoader.js",
-      "fileHash": "6a30a83f",
+      "fileHash": "e79dced0",
       "needsInterop": false
     }
   },
-  "chunks": {
-    "chunk-AVFX2RNF": {
-      "file": "chunk-AVFX2RNF.js"
-    },
-    "chunk-N64XG22S": {
-      "file": "chunk-N64XG22S.js"
-    }
-  }
+  "chunks": {}
 }
