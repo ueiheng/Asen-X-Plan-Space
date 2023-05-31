@@ -6,17 +6,22 @@
             </div>
             <div class="card-description">{{ description }}</div>
             <div class="card-details">{{ details }}</div>
-            <div class="card-more"><a href="/guide/01flex.html">Learn more</a></div>
+            <div class="card-more"><a :href = "pathUrl" >Learn more</a></div>
         </div>
     </div>
 </template>
     
 <script setup>
+/** Card组件
+ * 必传参数icon,description,details
+ * 
+ */
 
 const props = defineProps({
-  icon: String,
-  description: String,
-  details: String
+    icon: String,
+    description: String,
+    details: String,
+    pathUrl: String,
 });
 
 </script>

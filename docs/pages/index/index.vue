@@ -28,6 +28,7 @@
     font-weight: 900;
     padding-top: 80px;
     white-space: nowrap;
+    user-select: none;
 }
 
 
@@ -40,6 +41,7 @@
     overflow: hidden;
     font-size: 32px;
     height: 44px;
+    user-select: none;
 }
 
 .marquee {
@@ -75,4 +77,5 @@
 .index-img .index-video {
     width: 100%;
     height: 100%;
-}</style>
+}
+</style>
