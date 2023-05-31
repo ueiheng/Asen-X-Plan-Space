@@ -101,6 +101,7 @@ export default {
                 text: '杂记',
                 items: [
                     { text: 'Javaweb', link: '/zatan/javaweb.md' },
+                    { text: '初见linux', link: '/zatan/learn_linux' },
                 ],
                 collapsible: true,
                 collapsed: true
