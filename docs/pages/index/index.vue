@@ -1,5 +1,6 @@
 <!-- 首页 -->
 <template>
+    <Weather></Weather>
     <div class="site-title">ASEN X PLAN SPACE</div>
     <div class="content-mq">
         <div class="marquee">- A - radical - front-end - <strong>Enthusiast</strong></div>
@@ -14,6 +15,7 @@
 </template>
     
 <script setup>
+import Weather from '../../components/Weather.vue';
 
 </script>
     
@@ -67,7 +69,7 @@
 }
 
 .index-img {
-    border-radius: 15px;
+    border-radius: 25px;
     min-width: 350px;
     overflow: hidden;
     margin: 30px 20px;

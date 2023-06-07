@@ -6,7 +6,7 @@
             </div>
             <div class="card-description">{{ description }}</div>
             <div class="card-details">{{ details }}</div>
-            <div class="card-more"><a :href = "pathUrl" >Learn more</a></div>
+            <div class="card-more"><a :href="pathUrl">Learn more ➡️</a></div>
         </div>
     </div>
 </template>
@@ -16,6 +16,7 @@
  * 必传参数icon,description,details
  * 
  */
+import 'animate.css'
 
 const props = defineProps({
     icon: String,
@@ -34,14 +35,18 @@ const props = defineProps({
     display: flex;
     flex-direction: column;
     transition: all 0.25s;
-    border: #e8e8e8 1px solid;
-    border-radius: 10px;
+    border: #e8e8e8 2px solid;
+    border-radius: 20px;
     padding: 20px;
 }
 
 .card-content:hover {
     /* background-color: #fff; */
     border-color: #8cf988;
+    animation: pulse;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
 }
 
 .card-icon-wrap {
@@ -54,13 +59,14 @@ const props = defineProps({
     width: 48px;
     height: 48px;
     font-size: 24px;
-
+    user-select: none;
 }
 
 
 .card-description {
     font-size: 18px;
     font-weight: 600;
+    user-select: none;
 }
 
 .card-details {
@@ -72,5 +78,6 @@ const props = defineProps({
 
 .card-more a {
     font-weight: 700;
+    user-select: none;
 }
 </style>

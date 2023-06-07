@@ -1,6 +1,5 @@
 // 此处配置页头header
 export default {
-
     title: "Asen Learn Space",
     titleTemplate: false, //组织子标题
     ignoreDeadLinks: true,//忽略死链接
@@ -10,6 +9,7 @@ export default {
         home: '../index.md',
         siteTitle: "Asen", // 网站标题
         logo: '/images/author.jpg',
+        head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
         nextLinks: true,
         nav: [
             {
@@ -34,7 +34,8 @@ export default {
                     { text: 'GPT 3.0', link: 'https://chat1.aichatos.com/' },
                     { text: 'sketchfab', link: 'https://sketchfab.com/3d-models?features=downloadable&sort_by=-likeCount' },
                 ]
-            }
+            },
+            // { text: 'Weather', component: 'Weather' }
         ],
         socialLinks: [
             { icon: "github", link: "https://github.com/ueiheng" },
@@ -79,7 +80,8 @@ export default {
             {
                 text: 'React学习笔记',
                 items: [
-                    { text: 'redux快速入门', link: '/React/learn_redux.md' },
+                    { text: 'redux', link: '/React/learn_redux.md' },
+                    { text: 'react-redux', link: '/React/learn_react-redux.md' },
                 ],
                 collapsible: true,
                 collapsed: true

@@ -26,7 +26,7 @@ margin-bottom: 10px;
 padding: 10px;
 width: 140px;
 border-radius: 10px;
-background-color:#e3e3e5;
+background-color:var(--vp-c-bg-soft-down);
 }
 
 .Group-content {
